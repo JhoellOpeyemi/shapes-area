@@ -210,8 +210,8 @@ body {
 
 @media screen and (max-width: 26.4rem) {
   .area-section-select label::after {
-    bottom: -2.5rem;
-    right: 1.7rem;
+    bottom: -2.6rem;
+    right: 1.2rem;
     width: 10rem;
   }
 
@@ -225,8 +225,9 @@ body {
   }
 
   .select-arrow {
+    position: absolute;
     right: 0.3rem;
-    top: 80%;
+    top: 2.8rem;
   }
 
   .input-group label {
