@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME SCRIPT -->
+    <script
+      src="https://kit.fontawesome.com/0e95dad32b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- LINK TO STYLESHEET -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Area of Shapes</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="main-title">
+        Get The Area Of Different Shapes
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="shapes"
+          class="svg-inline--fa fa-shapes fa-w-16 main-title-svg"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+        >
+          <path
+            fill="currentColor"
+            d="M128,256A128,128,0,1,0,256,384,128,128,0,0,0,128,256Zm379-54.86L400.07,18.29a37.26,37.26,0,0,0-64.14,0L229,201.14C214.76,225.52,232.58,256,261.09,256H474.91C503.42,256,521.24,225.52,507,201.14ZM480,288H320a32,32,0,0,0-32,32V480a32,32,0,0,0,32,32H480a32,32,0,0,0,32-32V320A32,32,0,0,0,480,288Z"
+          ></path>
+        </svg>
+      </h1>
+      <section class="area-section">
+        <div class="area-section-select">
+          <label for="shapes" class="shapes-label"
+            >Calculate the area of a:
+          </label>
+          <select name="shapes" id="shapes" class="select-shapes">
+            <option value="blank"></option>
+            <option value="triangle">Triangle</option>
+            <option value="circle">Circle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="square">Square</option>
+            <option value="parallelogram">Parallelogram</option>
+            <option value="cube">Cube</option>
+          </select>
+          <i class="fas fa-chevron-down select-arrow"></i>
+        </div>
+
+        <div class="shape-details-group">
+          <div class="shape-img-container"></div>
+          <div class="shape-details">
+            <div class="get-details"></div>
+            <div class="result"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
